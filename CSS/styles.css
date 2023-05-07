@@ -1,3 +1,38 @@
+ul {
+    list-style-type: none;
+}
+
+
 .nom-logo{
-    text-align:left
+    text-align: left; 
+}
+
+.nom-logo a {
+    color:black;
+    text-decoration: none;
+}
+
+.nom-logo h {
+    padding-left: 25px;
+}
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    color: hotpink;
+    padding: 10px;
+    border: 1px solid green;
+    float: center;
+    text-decoration: none;
+
+}
+
+a:hover::after{
+    content:"./"
 }
