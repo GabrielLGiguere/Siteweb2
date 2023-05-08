@@ -10,6 +10,14 @@ ul {
     list-style-type: none;
 }
 
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
 .haut-de-page {
     height: 100px;
     display:flex;
@@ -76,25 +84,44 @@ ul {
 
 }
 a:hover{
-    text-shadow: 2px 2px 4px green;
+    text-shadow: 2px 2px 4px rgb(140, 255, 138);
 
 }
 
 a:hover::after{
     content:"./";
-    text-shadow: 2px 2px 4px green;
+    text-shadow: 2px 2px 4px rgb(140, 255, 138);;
 
 }
-
 .corps{
-    overflow-y:hidden;
-}
-.corps p {
-    max-width:600px;
-    border: hidden;
-    margin:10% 10% 20% 5%;
+    display: flex;
+    flex-direction: column;
 }
 
+.corps h2{
+    display: block;
+    max-width: fit-content;
+    margin-left: 6vw;
+    font-style: italic;
+    background-color: rgb(140, 255, 138);
+
+}
+.texte p {
+    max-width:30vw;
+    text-align: justify;
+    border: hidden;
+    margin:5% 10% 20% 9vw;
+}
+.postlist{
+    display: block;
+}
+.post{
+}
+
+.titre{
+    display: block;
+    margin-left:6vw;
+}
 .footer {
     position: fixed;
     bottom: 0; 
