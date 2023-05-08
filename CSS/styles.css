@@ -16,6 +16,7 @@ div {
 
 a {
     text-decoration: none;
+    color:hotpink;
 }
 
 .haut-de-page {
@@ -114,14 +115,27 @@ a:hover::after{
 }
 .postlist{
     display: block;
+
 }
 .post{
-}
-
-.titre{
     display: block;
     margin-left:6vw;
+    max-width: 60vw;
+    margin-bottom: 30vw;
+    clear: right;
 }
+
+.post img{
+    display: block;
+    max-width: 35vw;
+    float: right;
+}
+.titre{
+    display: block;
+    margin-left:inherit;
+    text-align: right;
+}
+
 .footer {
     position: fixed;
     bottom: 0; 
@@ -132,6 +146,8 @@ a:hover::after{
     margin-top: 100px;
     padding-top: 10px;
     border-top: 1px solid black;
+    background-color: white;
+
 /*
     clear: both;
     margin-top: 100px;
